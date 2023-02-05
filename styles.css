@@ -89,6 +89,13 @@ body {
     .info{
         margin-top: 50px;
     }
+
+    
+#atmolic-store-img{
+    width: 45vw;
+    margin: 40px;
+}
+
     .atmolic-store{
         background-image: url(bg3.png);
             height: 100vh;
@@ -107,7 +114,7 @@ body {
 @media (max-width: 800px) {
     .toggle-button{
         display: flex;
-        padding: 30px;
+        padding: 20op;
     }
 
     .brand-title{
@@ -175,6 +182,9 @@ body {
 
     #atmolic-store-img{
     place-self: center;
+    margin-top: 50px;
+    width: 60vw;
+
     }
 
     .info{
@@ -185,7 +195,6 @@ body {
 
 .header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #atmolic-nav{
@@ -207,10 +216,6 @@ body {
 
 
 
-#atmolic-store-img{
-    width: 45vw;
-    margin: 40px;
-}
 
 .info{
     margin-right:100px;
