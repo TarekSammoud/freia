@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+    font-size: 20px;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+
+.navbar-links a:hover {
+    border-bottom: 2px solid #b40000;
+    color: #b40000;
+}
+
+
+
+ 
+ .fa-solid{
+    color: grey;
+    margin-left: 3px;
+ }
+
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+    .atmolic-store{
+        background-image: url(bg3.png);
+            height: 868px;
+            width: 100%; /* may not be necessary */
+            color: white;
+        
+        }
+}
+
+@media (max-width: 800px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    
+    .atmolic-store{
+    background-image: url(format-tel.png);
+        height: 200vw;
+        width: auto; /* may not be necessary */
+        color: white;
+    
+    }
+
+
+    .navbar-links{
+       display: none; 
+       width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    #atmolic-nav{
+        display: none;
+    }
+    #freia-logo{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+
+
+    .info ul{
+        display: none;
+    }
+
+    #acheter{
+        border: 0px;
+        border-radius: 15px;
+        padding: 3px;
+        font-size: 25px;
+    }
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#atmolic-nav{
+    width: 5vw;
+    height: auto;
+    padding: 0;
+    margin-top: 5vw;
+    margin-left: 20px;
+    float: left;
+}
+
+#freia-logo{
+    place-self: center;
+    width: 10vw;
+    height: auto;
+    padding: -20px;
+
+}
+
+
+
+#atmolic-store-img{
+    width: 45vw;
+    margin: 40px;
+}
+
+.info{
+    margin-right:100px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info ul li{
+    font-size: 30px;
+}
+
+ul{
+    list-style-type :none;
+}
+
+.info button{
+    color: white;
+    background-color: #b40000;
+    border: 0px;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 30px;
+}
