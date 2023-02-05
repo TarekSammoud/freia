@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
 .navbar-links {
     height: 100%;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -83,7 +85,10 @@ body {
     border-radius: 10px;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 801px) {
+    .info{
+        margin-top: 50px;
+    }
     .atmolic-store{
         background-image: url(bg3.png);
             height: 100vh;
@@ -99,9 +104,10 @@ body {
         }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     .toggle-button{
         display: flex;
+        padding: 30px;
     }
 
     .brand-title{
@@ -164,7 +170,6 @@ body {
     #acheter{
         border: 0px;
         border-radius: 15px;
-        padding: 3px;
         font-size: 25px;
     }
 
@@ -212,6 +217,8 @@ body {
     float: right;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
