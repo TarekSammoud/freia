@@ -79,7 +79,7 @@ body {
     border-radius: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 481px) {
     .atmolic-store{
         background-image: url(bg3.png);
             height: 868px;
@@ -89,7 +89,7 @@ body {
         }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .toggle-button{
         display: flex;
     }
