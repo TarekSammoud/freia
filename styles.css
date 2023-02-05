@@ -59,6 +59,10 @@ body {
     margin-left: 3px;
  }
 
+ .brand-title{
+    display: none;
+ }
+
 
 
 .toggle-button {
@@ -75,16 +79,22 @@ body {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: #b40000;
     border-radius: 10px;
 }
 
 @media (min-width: 481px) {
     .atmolic-store{
         background-image: url(bg3.png);
-            height: 868px;
+            height: 100vh;
             width: 100%; /* may not be necessary */
             color: white;
+
+            height: 100vh;
+            background-size:cover;
+            width: 100vw; /* may not be necessary */
+            color: white;
+        
         
         }
 }
@@ -94,11 +104,16 @@ body {
         display: flex;
     }
 
+    .brand-title{
+        display: block;
+    }
+
     
     .atmolic-store{
-    background-image: url(format-tel.png);
-        height: 200vw;
-        width: auto; /* may not be necessary */
+    background-image: url(format-tel5.png);
+        height: 100vh;
+        background-size:cover;
+        width: 100vw; /* may not be necessary */
         color: white;
     
     }
@@ -151,6 +166,15 @@ body {
         border-radius: 15px;
         padding: 3px;
         font-size: 25px;
+    }
+
+    #atmolic-store-img{
+    place-self: center;
+    }
+
+    .info{
+        margin: 0px !important;
+        float: none !important;
     }
 }
 
@@ -208,4 +232,9 @@ ul{
     font-size: 50px;
     cursor: pointer;
     margin: 30px;
+}
+
+#freia-logo-mobile{
+    width: 20vw;
+    height: auto;
 }
